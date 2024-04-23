@@ -1,0 +1,565 @@
+<!-- /*
+* Template Name: Sterial
+* Template Author: Untree.co
+* Tempalte URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/gruplogo.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/flatpickr.min.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/istanbul.css">
+	<link rel="stylesheet" href="css/istanbul2.css">
+
+
+	<title>Gezi Rotası &mdash; İstanbul </title>
+</head>
+<body>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav mt-3">
+		<div class="container">
+
+			<div class="site-navigation">
+				<div class="row">
+					<div class="col-6 col-lg-3">
+						<a href="index.html" class="logo m-0 float-start">Gezi Rotası</a>
+					</div>
+					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
+							<li class="active"><a href="index.html">Ana Sayfa</a></li>
+							
+							<li class="has-children">
+								<a href="#">Şehirler</a>
+								<ul class="dropdown">
+									<li><a href="rize.html">RİZE</a></li>
+									<li>
+										<a href="istanbul.html">İSTANBUL</a>
+										
+									</li>
+									<li><a href="trabzon.html">TRABZON</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">İletişim</a></li>
+							
+
+						</ul>
+					</div>
+					<div class="col-6 col-lg-3 text-lg-end">
+						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
+							<li class="cta-button"><a href="harita.html">Gezini Planla</a></li>
+						</ul>
+
+						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	
+
+	<div class="hero overlay">
+
+		<div class="img-bg rellax">
+			<img src="images/armut.jpg" alt="Image" class="img-fluid">
+		</div>
+
+		<div class="container">
+			<div class="row align-items-center justify-content-start">
+				<div class="col-lg-5">
+
+					<h1 class="heading" data-aos="fade-up" style="color: rgb(228, 119, 56) ;">İSTANBUL</h1>
+					<h2 class="heading" data-aos="fade-up">Sadece Ülkemizin Değil, Dünyanın Gözbebeği Şehr-i İstanbul</h2>
+					<p class="mb-5" data-aos="fade-up">Tercihinizi yapmadan önce İstanbul'u incelemeyi ihmal etmeyin.</p>
+
+					<div data-aos="fade-up">
+						<a href="https://www.youtube.com/watch?v=7V6_YFlhRv0&ab_channel=Platform%C4%B0stanbul" class="play-button align-items-center d-flex glightbox3" >
+							<span class="icon-button me-3">
+								<span class="icon-play"></span>
+							</span>
+							<span class="caption">Videoyu İzle</span>
+						</a>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+
+		
+	</div>
+
+
+	<div class="section section-3" data-aos="fade-up" data-aos-delay="100">
+		<div class="container">
+			<div class="row align-items-center justify-content-between  mb-5">
+				<div class="col-lg-5" data-aos="fade-up">
+					<h2 class="heading mb-3">İstanbul'un Gezilecek Yerleri</h2>
+
+				</div>		
+				<div class="col-lg-5 text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<div id="destination-controls">
+						<span class="prev me-3" data-controls="prev">
+							<span class="icon-chevron-left"></span>
+
+						</span>
+						<span class="next" data-controls="next">
+							<span class="icon-chevron-right"></span>
+
+						</span>
+					</div>
+				</div>
+			</div>	
+
+		</div>		
+
+		<div class="destination-slider-wrap">
+			<div class="destination-slider">
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/istanbul1.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Galata Kulesi</a></h3>
+						<span class="meta">Beyoğlu, İstanbul</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/istanbul2.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Kız Kulesi</a></h3>
+						<span class="meta">Üsküdar, İstanbul</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/sahmet.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Sultanahmet Camii</a></h3>
+						<span class="meta">Fatih, İstanbul</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/ayasofyaa.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Ayasofya Camii</a></h3>
+						<span class="meta">Fatih, İstanbul</span>
+					</div>
+				</div>
+
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/topkap.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Topkapı Sarayı</a></h3>
+						<span class="meta">Fatih, İstanbul</span>
+					</div>
+				</div>
+
+				<div class="destination">
+					<div class="thumb">
+						<img src="images/rumeli.jpg" alt="Image" class="img-fluid">
+						<div class="price"></div>
+					</div>
+					<div class="mt-4">
+						<h3><a href="#">Rumeli Hisarı</a></h3>
+						<span class="meta">Sarıyer, İstanbul</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>	
+	
+	<div class="section section-3" data-aos="fade-up" data-aos-delay="100">
+		<div class="container">
+			<div class="row align-items-center justify-content-between  mb-5">
+				<div class="col-lg-5" data-aos="fade-up">
+					<h2 class="heading mb-3">İstanbul'daki Restoranlar</h2>
+
+				</div>		
+				<div class="col-lg-5 text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<div id="destination-controls2">
+						<span class="prev me-3" data-controls="prev">
+							<span class="icon-chevron-left2"></span>
+
+						</span>
+						<span class="next" data-controls="next">
+							<span class="icon-chevron-right2"></span>
+
+						</span>
+					</div>
+				</div>
+			</div>	
+
+		</div>
+
+    <div class="destination-slider-wrap2">
+		<div class="destination-slider2">
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/ciya-kapak-resmi-2.webp" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Çiya Kebap</a></h3>
+					<span class="meta">Kadıköy, İstanbul</span>
+				</div>
+			</div>
+
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/istanbul-deniz-kenari-mekanlar.jpg" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Tarihi Çınaraltı</a></h3>
+					<span class="meta">Üsküdar, İstanbul</span>
+				</div>
+			</div>
+
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/gulhane-sark-sofrasi.jpg" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Gülhane Şark Sofrası</a></h3>
+					<span class="meta">Fatih, İstanbul</span>
+				</div>
+			</div>
+
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/mercans.jpg" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Mekan Kokoreç</a></h3>
+					<span class="meta">Kadıköy, İstanbul</span>
+				</div>
+			</div>
+
+
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/hafiz.jpg" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Hafız Mustafa 1864</a></h3>
+					<span class="meta">Fatih, İstanbul</span>
+				</div>
+			</div>
+
+			<div class="destination2">
+				<div class="thumb">
+					<img src="images/surbalık.jpg" alt="Image" class="img-fluid">
+					<div class="price"></div>
+				</div>
+				<div class="mt-4">
+					<h3><a href="#">Sur Balık Arnavutköy</a></h3>
+					<span class="meta">Beşiktaş, İstanbul</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+
+<div class="section section-3" data-aos="fade-up" data-aos-delay="100">
+	<div class="container">
+		<div class="row align-items-center justify-content-between  mb-5">
+			<div class="col-lg-5" data-aos="fade-up">
+				<h2 class="heading mb-3">İstanbul'daki Konaklama Yerleri</h2>
+
+			</div>		
+			<div class="col-lg-5 text-md-end" data-aos="fade-up" data-aos-delay="100">
+				<div id="destination-controls3">
+					<span class="prev me-3" data-controls="prev">
+						<span class="icon-chevron-left3"></span>
+
+					</span>
+					<span class="next" data-controls="next">
+						<span class="icon-chevron-right3"></span>
+
+					</span>
+				</div>
+			</div>
+		</div>	
+
+	</div>
+
+<div class="destination-slider-wrap3">
+	<div class="destination-slider3">
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/cheers.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺2199</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">Cheers Lighthouse</a></h3>
+				<span class="meta">Fatih, İstanbul</span>
+			</div>
+		</div>
+
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/titanic.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺3600</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">Titanic City</a></h3>
+				<span class="meta">Beyoğlu, İstanbul</span>
+			</div>
+		</div>
+
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/new.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺1900</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">New Beylerbeyi Hotel </a></h3>
+				<span class="meta">Üsküdar, İstanbul</span>
+			</div>
+		</div>
+
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/romance.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺8599</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">Romance İstanbul</a></h3>
+				<span class="meta">Fatih, İstanbul</span>
+			</div>
+		</div>
+
+
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/sultan.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺1400</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">Sultan Hostel</a></h3>
+				<span class="meta">Fatih, İstanbul</span>
+			</div>
+		</div>
+
+		<div class="destination3">
+			<div class="thumb">
+				<img src="images/hotel-exterior.jpg" alt="Image" class="img-fluid">
+				<div class="price">₺2899</div>
+			</div>
+			<div class="mt-4">
+				<h3><a href="#">Holiday Inn</a></h3>
+				<span class="meta">Kadıköy, İstanbul</span>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+</div>
+
+<div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<h2>Gezi Planı 1</h2>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Saat</th>
+							<th>Etkinlik</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>09.00</td>
+							<td>Tarihi Çınaraltı Kahvaltı</td>
+						</tr>
+						<tr>
+							<td>10.00</td>
+							<td>Beylerbeyi Sarayı Gezisi</td>
+						</tr>
+						<tr>
+							<td>12.00</td>
+							<td>Vapurla Beşiktaş'a Geçiş</td>
+						</tr>
+						<tr>
+							<td>12.30</td>
+							<td>Dolmabahçe Sarayı Gezisi</td>
+						</tr>
+						<tr>
+							<td>14.30</td>
+							<td>IETT otobüsü ile Arnavutköy'e Git</td>
+						</tr>
+						<tr>
+							<td>15.00</td>
+							<td>Sur Balık Arnavutköy'de Balık Ye</td>
+						</tr>
+						<tr>
+							<td>16.00</td>
+							<td>Otobüs ile Sarıyer'e Geç</td>
+						</tr>
+						<tr>
+							<td>17.00</td>
+							<td>Emirgan Korusu'nda Dinlen</td>
+						</tr>
+						<tr>
+							<td>19.00</td>
+							<td>Sosyal Tesislerde Akşam Yemeği</td>
+						</tr>
+						<tr>
+							<td>20.00</td>
+							<td>Otele Dönüş (New Beylerbeyi Hotel)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-lg-6">
+				<h2>Gezi Planı 2</h2>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Saat</th>
+							<th>Etkinlik</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>09.00</td>
+							<td>Otelde Kahvaltı Yap</td>
+						</tr>
+						<tr>
+							<td>10.00</td>
+							<td>Topkapı Sarayı Gezisi</td>
+						</tr>
+						<tr>
+							<td>11.00</td>
+							<td>Ayasofya ve Sultanahmet Ziyareti</td>
+						</tr>
+						<tr>
+							<td>13.00</td>
+							<td>Gülhane Parkı'nda Dinlen</td>
+						</tr>
+						<tr>
+							<td>14.30</td>
+							<td>Gülhane Şark Sofrası'nda Öğle Yemeği Ye</td>
+						</tr>
+						<tr>
+							<td>15.30</td>
+							<td>Hafız Mustafa'da Tatlı Ye</td>
+						</tr>
+						<tr>
+							<td>16.00</td>
+							<td>Galata Köprüsü'nde Yürüyerek Karaköy'e geçiş</td>
+						</tr>
+						<tr>
+							<td>17.00</td>
+							<td>Galata Kulesi Ziyareti</td>
+						</tr>
+						<tr>
+							<td>18.00</td>
+							<td>Vapurla Kadıköy'e Geçiş</td>
+						</tr>
+						<tr>
+							<td>19.00</td>
+							<td>Çiya Kebap'da Akşam Yemeği</td>
+						</tr>
+						<tr>
+							<td>20.00</td>
+							<td>Otele Dönüş (Cheers Lighthouse)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="py-5 bg-primary">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 text-center mb-3 mb-lg-0 text-lg-start">
+					<h3 class="text-white m-0">Macera dolu yolculuğunuza burada başlayın.</h3>
+				</div>		
+				<div class="col-lg-5 text-center text-lg-end">
+					<a href="harita.html" class="btn btn-outline-white">Hadi Başlayalım</a>
+				</div>
+			</div>		
+		</div>		
+	</div>
+
+	
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/navbar.js"></script>
+		<script src="js/counter.js"></script>
+		<script src="js/rellax.js"></script>
+		<script src="js/flatpickr.js"></script>
+		<script src="js/glightbox.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/istanbul.js"></script>
+		<script src="js/istanbul2.js"></script>
+
+	</body>
+	</html>
